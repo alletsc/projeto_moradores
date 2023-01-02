@@ -32,9 +32,12 @@ link: https://psr2020-pcrj.hub.arcgis.com
 ``` shell
 C:.
 │   exploratory_analysis.ipynb
+│   PopRua.pdf
 │   README.md
+│   Resumo_Censo_2020.pdf
 │
 ├───originals_data
+│   │   .gitignore
 │   │   Base do Censo PopRua 2020 (anonimizada).xlsx
 │   │
 │   └───dados_popoulacao_rua
@@ -44,6 +47,20 @@ C:.
 ├───pbi
 │       exploratoria.pbix
 │       primeira_exploracao.pbix
+│
+├───utils
+│   │   conversao_dados.py
+│   │   plots.py
+│   │   trat_outliers.py
+│   │   valores_ausentes.py
+│   │
+│   └───__pycache__
+│           conversao_dados.cpython-311.pyc
+│           estrategia1.cpython-311.pyc
+│           estrategia2.cpython-311.pyc
+│           estrategia3.cpython-311.pyc
+│           trat_outliers.cpython-311.pyc
+│           valores_ausentes.cpython-311.pyc
 │
 └───work_data
         Base do Censo PopRua 2020 (anonimizada).xlsx
